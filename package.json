@@ -4,7 +4,7 @@
   "description": "Section and material libraries, stress and torsion calculators, buckling factors, and linear 2D beam, frame and truss analysis.",
   "icon": "icon.png",
   "author": "tatsuki0123",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "platforms": [
     "macOS",
     "Windows"
