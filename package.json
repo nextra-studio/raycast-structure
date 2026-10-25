@@ -39,7 +39,7 @@
       "type": "directory",
       "required": false,
       "title": "Custom CSV Library Folder (Optional)",
-      "description": "One folder can contain multiple materials and sections CSVs. Leave blank for the automatic personal folder; Library \u2192 CSV Files shows the active path and loaded files."
+      "description": "One folder can contain multiple materials and sections CSVs. Leave blank for the automatic personal folder; Library → CSV Files shows the active path and loaded files."
     },
     {
       "name": "defaultMaterial",
@@ -100,7 +100,8 @@
     "typecheck": "tsc --noEmit",
     "test": "tsx --test tests/*.test.ts",
     "format": "prettier --write src tests",
-    "test:ui": "node tests/host-smoke.mjs"
+    "test:ui": "node tests/host-smoke.mjs",
+    "render:readme": "node scripts/render-readme-images.mjs"
   },
   "dependencies": {
     "@raycast/api": "^1.104.0",

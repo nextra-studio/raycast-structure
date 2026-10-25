@@ -29,9 +29,12 @@ You never need to remember the syntax: the suggestion list walks you through **s
 
 ## How a result looks
 
-<p align="center"><img src="docs/img/beam-example.svg" alt="Beam result: loads, reactions, shear and moment diagrams" width="85%"></p>
+<table align="center"><tr>
+<td align="center"><img src="docs/img/result-simply-supported.png" alt="Simply supported beam result" width="380"><br><sub><code>simply, 6m, 3kN/m, C24, 100x300</code></sub></td>
+<td align="center"><img src="docs/img/result-continuous.png" alt="Three-span continuous beam result" width="380"><br><sub><code>continuous 3, 4m each, 3kN/m, C24, 100x300</code></sub></td>
+</tr></table>
 
-<sub>Illustration of the layout for the example above (R = 9 kN, M,max = 13.5 kN·m). The app draws these diagrams for every calculation and adds equations with your numbers substituted.</sub>
+<sub>These images are rendered by the extension's own diagram engine (`npm run render:readme`): result cards, section, loads, reactions, shear, moment and deflection.</sub>
 
 ## Three commands
 
