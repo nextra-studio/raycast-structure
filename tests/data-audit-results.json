@@ -1,0 +1,1364 @@
+{
+  "checks": 808,
+  "records": [
+    {
+      "id": "C14",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "fm_k",
+        "ft0_k",
+        "fc0_k",
+        "fc90_k",
+        "fv_k",
+        "E0_mean",
+        "E0_05",
+        "E90_mean",
+        "G_mean",
+        "rho_k",
+        "rho_mean",
+        "ft90_k"
+      ],
+      "source": "https://napier-repository.worktribe.com/OutputFile/2762670"
+    },
+    {
+      "id": "C16",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "fm_k",
+        "ft0_k",
+        "fc0_k",
+        "fc90_k",
+        "fv_k",
+        "E0_mean",
+        "E0_05",
+        "E90_mean",
+        "G_mean",
+        "rho_k",
+        "rho_mean",
+        "ft90_k"
+      ],
+      "source": "https://napier-repository.worktribe.com/OutputFile/2762670"
+    },
+    {
+      "id": "C18",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "fm_k",
+        "ft0_k",
+        "fc0_k",
+        "fc90_k",
+        "fv_k",
+        "E0_mean",
+        "E0_05",
+        "E90_mean",
+        "G_mean",
+        "rho_k",
+        "rho_mean",
+        "ft90_k"
+      ],
+      "source": "https://napier-repository.worktribe.com/OutputFile/2762670"
+    },
+    {
+      "id": "C20",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "fm_k",
+        "ft0_k",
+        "fc0_k",
+        "fc90_k",
+        "fv_k",
+        "E0_mean",
+        "E0_05",
+        "E90_mean",
+        "G_mean",
+        "rho_k",
+        "rho_mean",
+        "ft90_k"
+      ],
+      "source": "https://napier-repository.worktribe.com/OutputFile/2762670"
+    },
+    {
+      "id": "C22",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "fm_k",
+        "ft0_k",
+        "fc0_k",
+        "fc90_k",
+        "fv_k",
+        "E0_mean",
+        "E0_05",
+        "E90_mean",
+        "G_mean",
+        "rho_k",
+        "rho_mean",
+        "ft90_k"
+      ],
+      "source": "https://napier-repository.worktribe.com/OutputFile/2762670"
+    },
+    {
+      "id": "C24",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "fm_k",
+        "ft0_k",
+        "fc0_k",
+        "fc90_k",
+        "fv_k",
+        "E0_mean",
+        "E0_05",
+        "E90_mean",
+        "G_mean",
+        "rho_k",
+        "rho_mean",
+        "ft90_k"
+      ],
+      "source": "https://napier-repository.worktribe.com/OutputFile/2762670"
+    },
+    {
+      "id": "C27",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "fm_k",
+        "ft0_k",
+        "fc0_k",
+        "fc90_k",
+        "fv_k",
+        "E0_mean",
+        "E0_05",
+        "E90_mean",
+        "G_mean",
+        "rho_k",
+        "rho_mean",
+        "ft90_k"
+      ],
+      "source": "https://napier-repository.worktribe.com/OutputFile/2762670"
+    },
+    {
+      "id": "C30",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "fm_k",
+        "ft0_k",
+        "fc0_k",
+        "fc90_k",
+        "fv_k",
+        "E0_mean",
+        "E0_05",
+        "E90_mean",
+        "G_mean",
+        "rho_k",
+        "rho_mean",
+        "ft90_k"
+      ],
+      "source": "https://napier-repository.worktribe.com/OutputFile/2762670"
+    },
+    {
+      "id": "C35",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "fm_k",
+        "ft0_k",
+        "fc0_k",
+        "fc90_k",
+        "fv_k",
+        "E0_mean",
+        "E0_05",
+        "E90_mean",
+        "G_mean",
+        "rho_k",
+        "rho_mean",
+        "ft90_k"
+      ],
+      "source": "https://napier-repository.worktribe.com/OutputFile/2762670"
+    },
+    {
+      "id": "C40",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "fm_k",
+        "ft0_k",
+        "fc0_k",
+        "fc90_k",
+        "fv_k",
+        "E0_mean",
+        "E0_05",
+        "E90_mean",
+        "G_mean",
+        "rho_k",
+        "rho_mean",
+        "ft90_k"
+      ],
+      "source": "https://napier-repository.worktribe.com/OutputFile/2762670"
+    },
+    {
+      "id": "GL20h",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "fm_k",
+        "ft0_k",
+        "fc0_k",
+        "E0_mean",
+        "E0_05",
+        "rho_k",
+        "rho_mean",
+        "ft90_k",
+        "fc90_k",
+        "fv_k",
+        "E90_mean",
+        "G_mean",
+        "G_05",
+        "Gr_mean"
+      ],
+      "source": "https://www.swedishwood.com/siteassets/5-publikationer/pdfer/glulamhandbook2-240508.pdf"
+    },
+    {
+      "id": "GL22h",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "fm_k",
+        "ft0_k",
+        "fc0_k",
+        "E0_mean",
+        "E0_05",
+        "rho_k",
+        "rho_mean",
+        "ft90_k",
+        "fc90_k",
+        "fv_k",
+        "E90_mean",
+        "G_mean",
+        "G_05",
+        "Gr_mean"
+      ],
+      "source": "https://www.swedishwood.com/siteassets/5-publikationer/pdfer/glulamhandbook2-240508.pdf"
+    },
+    {
+      "id": "GL24h",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "fm_k",
+        "ft0_k",
+        "fc0_k",
+        "E0_mean",
+        "E0_05",
+        "rho_k",
+        "rho_mean",
+        "ft90_k",
+        "fc90_k",
+        "fv_k",
+        "E90_mean",
+        "G_mean",
+        "G_05",
+        "Gr_mean"
+      ],
+      "source": "https://www.swedishwood.com/siteassets/5-publikationer/pdfer/glulamhandbook2-240508.pdf"
+    },
+    {
+      "id": "GL26h",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "fm_k",
+        "ft0_k",
+        "fc0_k",
+        "E0_mean",
+        "E0_05",
+        "rho_k",
+        "rho_mean",
+        "ft90_k",
+        "fc90_k",
+        "fv_k",
+        "E90_mean",
+        "G_mean",
+        "G_05",
+        "Gr_mean"
+      ],
+      "source": "https://www.swedishwood.com/siteassets/5-publikationer/pdfer/glulamhandbook2-240508.pdf"
+    },
+    {
+      "id": "GL28h",
+      "status": "DISCREPANCY",
+      "fields": [
+        "fm_k",
+        "ft0_k",
+        "fc0_k",
+        "E0_mean",
+        "E0_05",
+        "rho_k",
+        "rho_mean",
+        "ft90_k",
+        "fc90_k",
+        "fv_k",
+        "E90_mean",
+        "G_mean",
+        "G_05",
+        "Gr_mean"
+      ],
+      "source": "https://www.swedishwood.com/siteassets/5-publikationer/pdfer/glulamhandbook2-240508.pdf"
+    },
+    {
+      "id": "GL30h",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "fm_k",
+        "ft0_k",
+        "fc0_k",
+        "E0_mean",
+        "E0_05",
+        "rho_k",
+        "rho_mean",
+        "ft90_k",
+        "fc90_k",
+        "fv_k",
+        "E90_mean",
+        "G_mean",
+        "G_05",
+        "Gr_mean"
+      ],
+      "source": "https://www.swedishwood.com/siteassets/5-publikationer/pdfer/glulamhandbook2-240508.pdf"
+    },
+    {
+      "id": "GL32h",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "fm_k",
+        "ft0_k",
+        "fc0_k",
+        "E0_mean",
+        "E0_05",
+        "rho_k",
+        "rho_mean",
+        "ft90_k",
+        "fc90_k",
+        "fv_k",
+        "E90_mean",
+        "G_mean",
+        "G_05",
+        "Gr_mean"
+      ],
+      "source": "https://www.swedishwood.com/siteassets/5-publikationer/pdfer/glulamhandbook2-240508.pdf"
+    },
+    {
+      "id": "GL24c",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "fm_k",
+        "ft0_k",
+        "fc0_k",
+        "E0_mean",
+        "E0_05",
+        "rho_k",
+        "rho_mean",
+        "ft90_k",
+        "fc90_k",
+        "fv_k",
+        "E90_mean",
+        "G_mean",
+        "G_05",
+        "Gr_mean"
+      ],
+      "source": "https://www.swedishwood.com/siteassets/5-publikationer/pdfer/glulamhandbook2-240508.pdf"
+    },
+    {
+      "id": "GL28c",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "fm_k",
+        "ft0_k",
+        "fc0_k",
+        "E0_mean",
+        "E0_05",
+        "rho_k",
+        "rho_mean",
+        "ft90_k",
+        "fc90_k",
+        "fv_k",
+        "E90_mean",
+        "G_mean",
+        "G_05",
+        "Gr_mean"
+      ],
+      "source": "https://www.swedishwood.com/siteassets/5-publikationer/pdfer/glulamhandbook2-240508.pdf"
+    },
+    {
+      "id": "GL30c",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "fm_k",
+        "ft0_k",
+        "fc0_k",
+        "E0_mean",
+        "E0_05",
+        "rho_k",
+        "rho_mean",
+        "ft90_k",
+        "fc90_k",
+        "fv_k",
+        "E90_mean",
+        "G_mean",
+        "G_05",
+        "Gr_mean"
+      ],
+      "source": "https://www.swedishwood.com/siteassets/5-publikationer/pdfer/glulamhandbook2-240508.pdf"
+    },
+    {
+      "id": "GL32c",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "fm_k",
+        "ft0_k",
+        "fc0_k",
+        "E0_mean",
+        "E0_05",
+        "rho_k",
+        "rho_mean",
+        "ft90_k",
+        "fc90_k",
+        "fv_k",
+        "E90_mean",
+        "G_mean",
+        "G_05",
+        "Gr_mean"
+      ],
+      "source": "https://www.swedishwood.com/siteassets/5-publikationer/pdfer/glulamhandbook2-240508.pdf"
+    },
+    {
+      "id": "Kerto-S",
+      "status": "DISCREPANCY",
+      "fields": [
+        "fm_k",
+        "fm_flat_k",
+        "ft0_k",
+        "ft90_k",
+        "fc0_k",
+        "fc90_k",
+        "fc90_flat_k",
+        "fv_k",
+        "fv_flat_k",
+        "E0_mean",
+        "G_mean",
+        "rho_k",
+        "rho_mean"
+      ],
+      "source": "https://www.metsagroup.com/contentassets/f8ff384a208d4786959efa4bca9fab2c/kerto_lvl_for_load-bearing_applications.pdf"
+    },
+    {
+      "id": "Kerto-Q",
+      "status": "DISCREPANCY",
+      "fields": [
+        "fm_k",
+        "fm_flat_k",
+        "ft0_k",
+        "ft90_k",
+        "fc0_k",
+        "fc90_k",
+        "fc90_flat_k",
+        "fv_k",
+        "fv_flat_k",
+        "E0_mean",
+        "E90_mean",
+        "G_mean",
+        "rho_k",
+        "rho_mean"
+      ],
+      "source": "https://www.metsagroup.com/contentassets/f8ff384a208d4786959efa4bca9fab2c/kerto_lvl_for_load-bearing_applications.pdf (27\u201375 mm group)"
+    },
+    {
+      "id": "CLT-C24",
+      "status": "NOT EXTERNALLY VERIFIED",
+      "fields": [],
+      "source": "Product ETA/DoP or project specification required. Generic CLT, template or user-reference record."
+    },
+    {
+      "id": "CLT-T14",
+      "status": "NOT EXTERNALLY VERIFIED",
+      "fields": [],
+      "source": "Product ETA/DoP or project specification required. Generic CLT, template or user-reference record."
+    },
+    {
+      "id": "OSB3-18",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "fm_k",
+        "ft0_k",
+        "ft90_k",
+        "fc0_k",
+        "fc90_k",
+        "fv_k",
+        "fr_k",
+        "E0_mean",
+        "E90_mean",
+        "Em_flat",
+        "G_mean",
+        "Gr_mean",
+        "rho_k"
+      ],
+      "source": "https://www.egger.com/get_download/29ccb859-7689-4757-bb93-b5f6a3edb992/Brochure_OSB_3_Francais.pdf"
+    },
+    {
+      "id": "OSB3-25",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "fm_k",
+        "ft0_k",
+        "ft90_k",
+        "fc0_k",
+        "fc90_k",
+        "fv_k",
+        "fr_k",
+        "E0_mean",
+        "E90_mean",
+        "Em_flat",
+        "G_mean",
+        "Gr_mean",
+        "rho_k"
+      ],
+      "source": "https://www.egger.com/get_download/29ccb859-7689-4757-bb93-b5f6a3edb992/Brochure_OSB_3_Francais.pdf"
+    },
+    {
+      "id": "Plywood-template",
+      "status": "NOT EXTERNALLY VERIFIED",
+      "fields": [],
+      "source": "Product ETA/DoP or project specification required. Generic CLT, template or user-reference record."
+    },
+    {
+      "id": "Spano-V313-18",
+      "status": "NOT EXTERNALLY VERIFIED",
+      "fields": [],
+      "source": "Product ETA/DoP or project specification required. Generic CLT, template or user-reference record."
+    },
+    {
+      "id": "Cement-board-12",
+      "status": "NOT EXTERNALLY VERIFIED",
+      "fields": [],
+      "source": "Product ETA/DoP or project specification required. Generic CLT, template or user-reference record."
+    },
+    {
+      "id": "Steel-S235",
+      "status": "MATCH (checked fields)",
+      "fields": ["E", "G", "density"],
+      "source": "https://www.phd.eng.br/wp-content/uploads/2015/12/en.1993.1.1.2005.pdf"
+    },
+    {
+      "id": "Steel-S275",
+      "status": "MATCH (checked fields)",
+      "fields": ["E", "G", "density"],
+      "source": "https://www.phd.eng.br/wp-content/uploads/2015/12/en.1993.1.1.2005.pdf"
+    },
+    {
+      "id": "Steel-S355",
+      "status": "MATCH (checked fields)",
+      "fields": ["E", "G", "density"],
+      "source": "https://www.phd.eng.br/wp-content/uploads/2015/12/en.1993.1.1.2005.pdf"
+    },
+    {
+      "id": "Steel-S460",
+      "status": "MATCH (checked fields)",
+      "fields": ["E", "G", "density"],
+      "source": "https://www.phd.eng.br/wp-content/uploads/2015/12/en.1993.1.1.2005.pdf"
+    },
+    {
+      "id": "C12/15",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "fck",
+        "fck_cube",
+        "fcm",
+        "E",
+        "Ecm",
+        "G",
+        "nu",
+        "fctm",
+        "fctk_005",
+        "fctk_095",
+        "Ecm_formula",
+        "epsilon_c1",
+        "epsilon_cu1",
+        "epsilon_c2",
+        "epsilon_cu2",
+        "n",
+        "epsilon_c3",
+        "epsilon_cu3"
+      ],
+      "source": "https://www.phd.eng.br/wp-content/uploads/2015/12/en.1992.1.1.2004.pdf"
+    },
+    {
+      "id": "C16/20",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "fck",
+        "fck_cube",
+        "fcm",
+        "E",
+        "Ecm",
+        "G",
+        "nu",
+        "fctm",
+        "fctk_005",
+        "fctk_095",
+        "Ecm_formula",
+        "epsilon_c1",
+        "epsilon_cu1",
+        "epsilon_c2",
+        "epsilon_cu2",
+        "n",
+        "epsilon_c3",
+        "epsilon_cu3"
+      ],
+      "source": "https://www.phd.eng.br/wp-content/uploads/2015/12/en.1992.1.1.2004.pdf"
+    },
+    {
+      "id": "C20/25",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "fck",
+        "fck_cube",
+        "fcm",
+        "E",
+        "Ecm",
+        "G",
+        "nu",
+        "fctm",
+        "fctk_005",
+        "fctk_095",
+        "Ecm_formula",
+        "epsilon_c1",
+        "epsilon_cu1",
+        "epsilon_c2",
+        "epsilon_cu2",
+        "n",
+        "epsilon_c3",
+        "epsilon_cu3"
+      ],
+      "source": "https://www.phd.eng.br/wp-content/uploads/2015/12/en.1992.1.1.2004.pdf"
+    },
+    {
+      "id": "C25/30",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "fck",
+        "fck_cube",
+        "fcm",
+        "E",
+        "Ecm",
+        "G",
+        "nu",
+        "fctm",
+        "fctk_005",
+        "fctk_095",
+        "Ecm_formula",
+        "epsilon_c1",
+        "epsilon_cu1",
+        "epsilon_c2",
+        "epsilon_cu2",
+        "n",
+        "epsilon_c3",
+        "epsilon_cu3"
+      ],
+      "source": "https://www.phd.eng.br/wp-content/uploads/2015/12/en.1992.1.1.2004.pdf"
+    },
+    {
+      "id": "C30/37",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "fck",
+        "fck_cube",
+        "fcm",
+        "E",
+        "Ecm",
+        "G",
+        "nu",
+        "fctm",
+        "fctk_005",
+        "fctk_095",
+        "Ecm_formula",
+        "epsilon_c1",
+        "epsilon_cu1",
+        "epsilon_c2",
+        "epsilon_cu2",
+        "n",
+        "epsilon_c3",
+        "epsilon_cu3"
+      ],
+      "source": "https://www.phd.eng.br/wp-content/uploads/2015/12/en.1992.1.1.2004.pdf"
+    },
+    {
+      "id": "C35/45",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "fck",
+        "fck_cube",
+        "fcm",
+        "E",
+        "Ecm",
+        "G",
+        "nu",
+        "fctm",
+        "fctk_005",
+        "fctk_095",
+        "Ecm_formula",
+        "epsilon_c1",
+        "epsilon_cu1",
+        "epsilon_c2",
+        "epsilon_cu2",
+        "n",
+        "epsilon_c3",
+        "epsilon_cu3"
+      ],
+      "source": "https://www.phd.eng.br/wp-content/uploads/2015/12/en.1992.1.1.2004.pdf"
+    },
+    {
+      "id": "C40/50",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "fck",
+        "fck_cube",
+        "fcm",
+        "E",
+        "Ecm",
+        "G",
+        "nu",
+        "fctm",
+        "fctk_005",
+        "fctk_095",
+        "Ecm_formula",
+        "epsilon_c1",
+        "epsilon_cu1",
+        "epsilon_c2",
+        "epsilon_cu2",
+        "n",
+        "epsilon_c3",
+        "epsilon_cu3"
+      ],
+      "source": "https://www.phd.eng.br/wp-content/uploads/2015/12/en.1992.1.1.2004.pdf"
+    },
+    {
+      "id": "C45/55",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "fck",
+        "fck_cube",
+        "fcm",
+        "E",
+        "Ecm",
+        "G",
+        "nu",
+        "fctm",
+        "fctk_005",
+        "fctk_095",
+        "Ecm_formula",
+        "epsilon_c1",
+        "epsilon_cu1",
+        "epsilon_c2",
+        "epsilon_cu2",
+        "n",
+        "epsilon_c3",
+        "epsilon_cu3"
+      ],
+      "source": "https://www.phd.eng.br/wp-content/uploads/2015/12/en.1992.1.1.2004.pdf"
+    },
+    {
+      "id": "C50/60",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "fck",
+        "fck_cube",
+        "fcm",
+        "E",
+        "Ecm",
+        "G",
+        "nu",
+        "fctm",
+        "fctk_005",
+        "fctk_095",
+        "Ecm_formula",
+        "epsilon_c1",
+        "epsilon_cu1",
+        "epsilon_c2",
+        "epsilon_cu2",
+        "n",
+        "epsilon_c3",
+        "epsilon_cu3"
+      ],
+      "source": "https://www.phd.eng.br/wp-content/uploads/2015/12/en.1992.1.1.2004.pdf"
+    },
+    {
+      "id": "C55/67",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "fck",
+        "fck_cube",
+        "fcm",
+        "E",
+        "Ecm",
+        "G",
+        "nu",
+        "fctm",
+        "fctk_005",
+        "fctk_095",
+        "Ecm_formula",
+        "epsilon_c1",
+        "epsilon_cu1",
+        "epsilon_c2",
+        "epsilon_cu2",
+        "n",
+        "epsilon_c3",
+        "epsilon_cu3"
+      ],
+      "source": "https://www.phd.eng.br/wp-content/uploads/2015/12/en.1992.1.1.2004.pdf"
+    },
+    {
+      "id": "C60/75",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "fck",
+        "fck_cube",
+        "fcm",
+        "E",
+        "Ecm",
+        "G",
+        "nu",
+        "fctm",
+        "fctk_005",
+        "fctk_095",
+        "Ecm_formula",
+        "epsilon_c1",
+        "epsilon_cu1",
+        "epsilon_c2",
+        "epsilon_cu2",
+        "n",
+        "epsilon_c3",
+        "epsilon_cu3"
+      ],
+      "source": "https://www.phd.eng.br/wp-content/uploads/2015/12/en.1992.1.1.2004.pdf"
+    },
+    {
+      "id": "C70/85",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "fck",
+        "fck_cube",
+        "fcm",
+        "E",
+        "Ecm",
+        "G",
+        "nu",
+        "fctm",
+        "fctk_005",
+        "fctk_095",
+        "Ecm_formula",
+        "epsilon_c1",
+        "epsilon_cu1",
+        "epsilon_c2",
+        "epsilon_cu2",
+        "n",
+        "epsilon_c3",
+        "epsilon_cu3"
+      ],
+      "source": "https://www.phd.eng.br/wp-content/uploads/2015/12/en.1992.1.1.2004.pdf"
+    },
+    {
+      "id": "C80/95",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "fck",
+        "fck_cube",
+        "fcm",
+        "E",
+        "Ecm",
+        "G",
+        "nu",
+        "fctm",
+        "fctk_005",
+        "fctk_095",
+        "Ecm_formula",
+        "epsilon_c1",
+        "epsilon_cu1",
+        "epsilon_c2",
+        "epsilon_cu2",
+        "n",
+        "epsilon_c3",
+        "epsilon_cu3"
+      ],
+      "source": "https://www.phd.eng.br/wp-content/uploads/2015/12/en.1992.1.1.2004.pdf"
+    },
+    {
+      "id": "C90/105",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "fck",
+        "fck_cube",
+        "fcm",
+        "E",
+        "Ecm",
+        "G",
+        "nu",
+        "fctm",
+        "fctk_005",
+        "fctk_095",
+        "Ecm_formula",
+        "epsilon_c1",
+        "epsilon_cu1",
+        "epsilon_c2",
+        "epsilon_cu2",
+        "n",
+        "epsilon_c3",
+        "epsilon_cu3"
+      ],
+      "source": "https://www.phd.eng.br/wp-content/uploads/2015/12/en.1992.1.1.2004.pdf"
+    },
+    {
+      "id": "Sawn 38x89",
+      "status": "MATCH (checked fields)",
+      "fields": ["b", "h"],
+      "source": "Supplied EN1995 trade-size reference. Dimensions are presets, not Eurocode-mandated sizes."
+    },
+    {
+      "id": "Sawn 38x140",
+      "status": "MATCH (checked fields)",
+      "fields": ["b", "h"],
+      "source": "Supplied EN1995 trade-size reference. Dimensions are presets, not Eurocode-mandated sizes."
+    },
+    {
+      "id": "Sawn 45x95",
+      "status": "MATCH (checked fields)",
+      "fields": ["b", "h"],
+      "source": "Supplied EN1995 trade-size reference. Dimensions are presets, not Eurocode-mandated sizes."
+    },
+    {
+      "id": "Sawn 45x145",
+      "status": "MATCH (checked fields)",
+      "fields": ["b", "h"],
+      "source": "Supplied EN1995 trade-size reference. Dimensions are presets, not Eurocode-mandated sizes."
+    },
+    {
+      "id": "Sawn 45x170",
+      "status": "MATCH (checked fields)",
+      "fields": ["b", "h"],
+      "source": "Supplied EN1995 trade-size reference. Dimensions are presets, not Eurocode-mandated sizes."
+    },
+    {
+      "id": "Sawn 45x195",
+      "status": "MATCH (checked fields)",
+      "fields": ["b", "h"],
+      "source": "Supplied EN1995 trade-size reference. Dimensions are presets, not Eurocode-mandated sizes."
+    },
+    {
+      "id": "Sawn 45x220",
+      "status": "MATCH (checked fields)",
+      "fields": ["b", "h"],
+      "source": "Supplied EN1995 trade-size reference. Dimensions are presets, not Eurocode-mandated sizes."
+    },
+    {
+      "id": "Sawn 45x245",
+      "status": "MATCH (checked fields)",
+      "fields": ["b", "h"],
+      "source": "Supplied EN1995 trade-size reference. Dimensions are presets, not Eurocode-mandated sizes."
+    },
+    {
+      "id": "Sawn 71x171",
+      "status": "MATCH (checked fields)",
+      "fields": ["b", "h"],
+      "source": "Supplied EN1995 trade-size reference. Dimensions are presets, not Eurocode-mandated sizes."
+    },
+    {
+      "id": "Sawn 71x196",
+      "status": "MATCH (checked fields)",
+      "fields": ["b", "h"],
+      "source": "Supplied EN1995 trade-size reference. Dimensions are presets, not Eurocode-mandated sizes."
+    },
+    {
+      "id": "Sawn 71x221",
+      "status": "MATCH (checked fields)",
+      "fields": ["b", "h"],
+      "source": "Supplied EN1995 trade-size reference. Dimensions are presets, not Eurocode-mandated sizes."
+    },
+    {
+      "id": "Sawn 71x246",
+      "status": "MATCH (checked fields)",
+      "fields": ["b", "h"],
+      "source": "Supplied EN1995 trade-size reference. Dimensions are presets, not Eurocode-mandated sizes."
+    },
+    {
+      "id": "Sawn 71x271",
+      "status": "MATCH (checked fields)",
+      "fields": ["b", "h"],
+      "source": "Supplied EN1995 trade-size reference. Dimensions are presets, not Eurocode-mandated sizes."
+    },
+    {
+      "id": "Sawn 71x300",
+      "status": "MATCH (checked fields)",
+      "fields": ["b", "h"],
+      "source": "Supplied EN1995 trade-size reference. Dimensions are presets, not Eurocode-mandated sizes."
+    },
+    {
+      "id": "Glulam 90x270",
+      "status": "MATCH (checked fields)",
+      "fields": ["b", "h"],
+      "source": "Supplied EN1995 trade-size reference. Dimensions are presets, not Eurocode-mandated sizes."
+    },
+    {
+      "id": "Glulam 90x315",
+      "status": "MATCH (checked fields)",
+      "fields": ["b", "h"],
+      "source": "Supplied EN1995 trade-size reference. Dimensions are presets, not Eurocode-mandated sizes."
+    },
+    {
+      "id": "Glulam 115x315",
+      "status": "MATCH (checked fields)",
+      "fields": ["b", "h"],
+      "source": "Supplied EN1995 trade-size reference. Dimensions are presets, not Eurocode-mandated sizes."
+    },
+    {
+      "id": "Glulam 115x405",
+      "status": "MATCH (checked fields)",
+      "fields": ["b", "h"],
+      "source": "Supplied EN1995 trade-size reference. Dimensions are presets, not Eurocode-mandated sizes."
+    },
+    {
+      "id": "Glulam 140x450",
+      "status": "MATCH (checked fields)",
+      "fields": ["b", "h"],
+      "source": "Supplied EN1995 trade-size reference. Dimensions are presets, not Eurocode-mandated sizes."
+    },
+    {
+      "id": "Glulam 160x540",
+      "status": "MATCH (checked fields)",
+      "fields": ["b", "h"],
+      "source": "Supplied EN1995 trade-size reference. Dimensions are presets, not Eurocode-mandated sizes."
+    },
+    {
+      "id": "Glulam 200x630",
+      "status": "MATCH (checked fields)",
+      "fields": ["b", "h"],
+      "source": "Supplied EN1995 trade-size reference. Dimensions are presets, not Eurocode-mandated sizes."
+    },
+    {
+      "id": "LVL 45x200",
+      "status": "MATCH (checked fields)",
+      "fields": ["b", "h"],
+      "source": "Supplied EN1995 trade-size reference. Dimensions are presets, not Eurocode-mandated sizes."
+    },
+    {
+      "id": "LVL 45x260",
+      "status": "MATCH (checked fields)",
+      "fields": ["b", "h"],
+      "source": "Supplied EN1995 trade-size reference. Dimensions are presets, not Eurocode-mandated sizes."
+    },
+    {
+      "id": "LVL 45x300",
+      "status": "MATCH (checked fields)",
+      "fields": ["b", "h"],
+      "source": "Supplied EN1995 trade-size reference. Dimensions are presets, not Eurocode-mandated sizes."
+    },
+    {
+      "id": "LVL 63x300",
+      "status": "MATCH (checked fields)",
+      "fields": ["b", "h"],
+      "source": "Supplied EN1995 trade-size reference. Dimensions are presets, not Eurocode-mandated sizes."
+    },
+    {
+      "id": "LVL 75x360",
+      "status": "MATCH (checked fields)",
+      "fields": ["b", "h"],
+      "source": "Supplied EN1995 trade-size reference. Dimensions are presets, not Eurocode-mandated sizes."
+    },
+    {
+      "id": "IPE 160",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "h",
+        "b",
+        "tw",
+        "tf",
+        "r",
+        "Iy",
+        "Iz",
+        "Wy",
+        "Wz",
+        "Wply",
+        "Wplz",
+        "Iw",
+        "J",
+        "A",
+        "mass"
+      ],
+      "source": "https://www.britishsteel.co.uk/wp-content/uploads/2025/08/british-steel-european-sections-product-range.pdf"
+    },
+    {
+      "id": "IPE 180",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "h",
+        "b",
+        "tw",
+        "tf",
+        "r",
+        "Iy",
+        "Iz",
+        "Wy",
+        "Wz",
+        "Wply",
+        "Wplz",
+        "Iw",
+        "J",
+        "A",
+        "mass"
+      ],
+      "source": "https://www.britishsteel.co.uk/wp-content/uploads/2025/08/british-steel-european-sections-product-range.pdf"
+    },
+    {
+      "id": "IPE 200",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "h",
+        "b",
+        "tw",
+        "tf",
+        "r",
+        "Iy",
+        "Iz",
+        "Wy",
+        "Wz",
+        "Wply",
+        "Wplz",
+        "Iw",
+        "J",
+        "A",
+        "mass"
+      ],
+      "source": "https://www.britishsteel.co.uk/wp-content/uploads/2025/08/british-steel-european-sections-product-range.pdf"
+    },
+    {
+      "id": "IPE 220",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "h",
+        "b",
+        "tw",
+        "tf",
+        "r",
+        "Iy",
+        "Iz",
+        "Wy",
+        "Wz",
+        "Wply",
+        "Wplz",
+        "Iw",
+        "J",
+        "A",
+        "mass"
+      ],
+      "source": "https://www.britishsteel.co.uk/wp-content/uploads/2025/08/british-steel-european-sections-product-range.pdf"
+    },
+    {
+      "id": "IPE 240",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "h",
+        "b",
+        "tw",
+        "tf",
+        "r",
+        "Iy",
+        "Iz",
+        "Wy",
+        "Wz",
+        "Wply",
+        "Wplz",
+        "Iw",
+        "J",
+        "A",
+        "mass"
+      ],
+      "source": "https://www.britishsteel.co.uk/wp-content/uploads/2025/08/british-steel-european-sections-product-range.pdf"
+    },
+    {
+      "id": "IPE 270",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "h",
+        "b",
+        "tw",
+        "tf",
+        "r",
+        "Iy",
+        "Iz",
+        "Wy",
+        "Wz",
+        "Wply",
+        "Wplz",
+        "Iw",
+        "J",
+        "A",
+        "mass"
+      ],
+      "source": "https://www.britishsteel.co.uk/wp-content/uploads/2025/08/british-steel-european-sections-product-range.pdf"
+    },
+    {
+      "id": "IPE 300",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "h",
+        "b",
+        "tw",
+        "tf",
+        "r",
+        "Iy",
+        "Iz",
+        "Wy",
+        "Wz",
+        "Wply",
+        "Wplz",
+        "Iw",
+        "J",
+        "A",
+        "mass"
+      ],
+      "source": "https://www.britishsteel.co.uk/wp-content/uploads/2025/08/british-steel-european-sections-product-range.pdf"
+    },
+    {
+      "id": "IPE 400",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "h",
+        "b",
+        "tw",
+        "tf",
+        "r",
+        "Iy",
+        "Iz",
+        "Wy",
+        "Wz",
+        "Wply",
+        "Wplz",
+        "Iw",
+        "J",
+        "A",
+        "mass"
+      ],
+      "source": "https://www.britishsteel.co.uk/wp-content/uploads/2025/08/british-steel-european-sections-product-range.pdf"
+    },
+    {
+      "id": "IPE 450",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "h",
+        "b",
+        "tw",
+        "tf",
+        "r",
+        "Iy",
+        "Iz",
+        "Wy",
+        "Wz",
+        "Wply",
+        "Wplz",
+        "Iw",
+        "J",
+        "A",
+        "mass"
+      ],
+      "source": "https://www.britishsteel.co.uk/wp-content/uploads/2025/08/british-steel-european-sections-product-range.pdf"
+    },
+    {
+      "id": "IPE 500",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "h",
+        "b",
+        "tw",
+        "tf",
+        "r",
+        "Iy",
+        "Iz",
+        "Wy",
+        "Wz",
+        "Wply",
+        "Wplz",
+        "Iw",
+        "J",
+        "A",
+        "mass"
+      ],
+      "source": "https://www.britishsteel.co.uk/wp-content/uploads/2025/08/british-steel-european-sections-product-range.pdf"
+    },
+    {
+      "id": "IPE 600",
+      "status": "MATCH (checked fields)",
+      "fields": [
+        "h",
+        "b",
+        "tw",
+        "tf",
+        "r",
+        "Iy",
+        "Iz",
+        "Wy",
+        "Wz",
+        "Wply",
+        "Wplz",
+        "Iw",
+        "J",
+        "A",
+        "mass"
+      ],
+      "source": "https://www.britishsteel.co.uk/wp-content/uploads/2025/08/british-steel-european-sections-product-range.pdf"
+    }
+  ],
+  "discrepancies": [
+    {
+      "id": "GL28h",
+      "field": "ft0_k",
+      "csv": 22.3,
+      "reference": 22.4,
+      "source": "https://www.swedishwood.com/siteassets/5-publikationer/pdfer/glulamhandbook2-240508.pdf"
+    },
+    {
+      "id": "Kerto-S",
+      "field": "fc90_flat_k",
+      "csv": 1.8,
+      "reference": 2.2,
+      "source": "https://www.metsagroup.com/contentassets/f8ff384a208d4786959efa4bca9fab2c/kerto_lvl_for_load-bearing_applications.pdf"
+    },
+    {
+      "id": "Kerto-Q",
+      "field": "fm_k",
+      "csv": 28.0,
+      "reference": 32,
+      "source": "https://www.metsagroup.com/contentassets/f8ff384a208d4786959efa4bca9fab2c/kerto_lvl_for_load-bearing_applications.pdf (27\u201375 mm group)"
+    },
+    {
+      "id": "Kerto-Q",
+      "field": "fm_flat_k",
+      "csv": 32.0,
+      "reference": 36,
+      "source": "https://www.metsagroup.com/contentassets/f8ff384a208d4786959efa4bca9fab2c/kerto_lvl_for_load-bearing_applications.pdf (27\u201375 mm group)"
+    },
+    {
+      "id": "Kerto-Q",
+      "field": "ft0_k",
+      "csv": 19.0,
+      "reference": 26,
+      "source": "https://www.metsagroup.com/contentassets/f8ff384a208d4786959efa4bca9fab2c/kerto_lvl_for_load-bearing_applications.pdf (27\u201375 mm group)"
+    },
+    {
+      "id": "Kerto-Q",
+      "field": "fc0_k",
+      "csv": 19.0,
+      "reference": 26,
+      "source": "https://www.metsagroup.com/contentassets/f8ff384a208d4786959efa4bca9fab2c/kerto_lvl_for_load-bearing_applications.pdf (27\u201375 mm group)"
+    },
+    {
+      "id": "Kerto-Q",
+      "field": "E0_mean",
+      "csv": 10000.0,
+      "reference": 10500,
+      "source": "https://www.metsagroup.com/contentassets/f8ff384a208d4786959efa4bca9fab2c/kerto_lvl_for_load-bearing_applications.pdf (27\u201375 mm group)"
+    }
+  ],
+  "hashes": {
+    "materials.csv": "6f5f155182e9fed096cef5d0eebc17cb562dea43625b314fef458b557c45e3a7",
+    "sections.csv": "59cc5f7d00f8005db6fc38dfba73e2e622044078bbc9edffc36386d8ab394510"
+  }
+}
