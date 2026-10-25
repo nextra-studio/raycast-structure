@@ -16,7 +16,7 @@ import { buildModel } from ${JSON.stringify(resolve("src/core/templates"))};
 import { analyze } from ${JSON.stringify(resolve("src/core/engine"))};
 import { customSection } from ${JSON.stringify(resolve("src/core/sections"))};
 import { withShearProperties } from ${JSON.stringify(resolve("src/core/deformation"))};
-import { analysisDashboard } from ${JSON.stringify(resolve("src/ui/drawings"))};
+import { analysisDashboard, enlargedDiagram } from ${JSON.stringify(resolve("src/ui/drawings"))};
 import { initializeRenderer, pngFromSVG } from ${JSON.stringify(resolve("src/ui/raster"))};
 const lib = loadLibrary(${JSON.stringify(resolve("assets/library"))});
 await initializeRenderer(${JSON.stringify(resolve("assets"))});
@@ -32,22 +32,38 @@ for (const [name, c] of cases) {
     selfWeight: false, leftOverhang: 0, rightOverhang: 0,
   }));
   const svg = analysisDashboard(model, analyze(model), c.section, "y", true, { material: c.material });
-  writeFileSync(join(${JSON.stringify(out)}, name + ".png"), pngFromSVG(svg, 1100));
+  
+  const uri = analysisDashboard(model, analyze(model), c.section, "y", false, { material: c.material });
+  writeFileSync(join(${JSON.stringify(out)}, name + "-wide.png"), Buffer.from(enlargedDiagram(uri).split(",")[1], "base64"));
   console.log("wrote", name);
 }
 `;
 try {
   await build({
     stdin: { contents: entry, resolveDir: resolve("scripts"), loader: "ts" },
-    bundle: true, platform: "node", format: "esm", outfile: join(scratch, "render.mjs"), logLevel: "error",
-    banner: { js: 'import { createRequire } from "node:module"; const require = createRequire(import.meta.url);' },
-    plugins: [{
-      name: "raycast-stub",
-      setup(b) {
-        b.onResolve({ filter: /^@raycast\/api$/ }, (a) => ({ path: a.path, namespace: "stub" }));
-        b.onLoad({ filter: /.*/, namespace: "stub" }, () => ({ contents: api, loader: "js" }));
+    bundle: true,
+    platform: "node",
+    format: "esm",
+    outfile: join(scratch, "render.mjs"),
+    logLevel: "error",
+    banner: {
+      js: 'import { createRequire } from "node:module"; const require = createRequire(import.meta.url);',
+    },
+    plugins: [
+      {
+        name: "raycast-stub",
+        setup(b) {
+          b.onResolve({ filter: /^@raycast\/api$/ }, (a) => ({
+            path: a.path,
+            namespace: "stub",
+          }));
+          b.onLoad({ filter: /.*/, namespace: "stub" }, () => ({
+            contents: api,
+            loader: "js",
+          }));
+        },
       },
-    }],
+    ],
   });
   await import(pathToFileURL(join(scratch, "render.mjs")).href);
 } finally {

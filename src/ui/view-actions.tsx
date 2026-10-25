@@ -14,6 +14,7 @@ import { pathToFileURL } from "node:url";
 import { createHash } from "node:crypto";
 import { pngFromSVG } from "./raster";
 import { palette } from "./visual-style";
+import { enlargedDiagram } from "./drawings";
 const viewerCache = new Map<string, string>();
 const htmlEscape = (s: string) =>
   s.replace(
@@ -72,6 +73,22 @@ export function previewMarkdown(
     /\[(!\[[^\]]*\]\(data:image\/png;base64,[^)]+\))\]\(file:[^)]+\)/g,
     "$1",
   );
+}
+/** Raycast fits a bare image to the pane width, so a tall image runs off-screen. Pad it to the pane's shape so it scales to fit whole. */
+const PANE_ASPECT = 2.05;
+export function fitToPane(image: string, aspect = PANE_ASPECT) {
+  const bytes = Buffer.from(image.split(",")[1], "base64");
+  if (bytes.readUInt32BE(0) !== 0x89504e47) return image;
+  const w = bytes.readUInt32BE(16),
+    h = bytes.readUInt32BE(20);
+  if (w / h >= aspect) return image;
+  const width = Math.round(h * aspect),
+    x = Math.round((width - w) / 2);
+  const png = pngFromSVG(
+    `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${h}"><rect width="${width}" height="${h}" fill="${palette().bg}"/><image href="${image}" x="${x}" width="${w}" height="${h}"/></svg>`,
+    width,
+  );
+  return "data:image/png;base64," + png.toString("base64");
 }
 export function saveDiagramImage(image: string) {
   const bytes = Buffer.from(image.split(",")[1], "base64");
@@ -176,7 +193,8 @@ export function DiagramPreview({
   const current = images[index] || images[0];
   if (!current)
     return <Detail markdown="No diagram is available for this result yet." />;
-  const file = saveDiagramImage(current[2]);
+  const shown = enlargedDiagram(current[2]) ?? current[2];
+  const file = saveDiagramImage(shown);
   const viewer = saveDiagramViewer(markdown, title);
   const browserURL = pathToFileURL(viewer).href + "#diagram=" + index;
   return (
@@ -184,7 +202,7 @@ export function DiagramPreview({
       navigationTitle={
         title + " — Diagram " + (index + 1) + " / " + images.length
       }
-      markdown={`![${current[1]}](${current[2]})`}
+      markdown={`![${current[1]}](${fitToPane(shown)})`}
       actions={
         <ActionPanel>
           <Action.OpenInBrowser

@@ -245,6 +245,11 @@ function miniature(
     symbolic,
   });
 }
+/** Wide layout for Enlarge: values on the left, loads/reactions and response curves on the right, so everything fits one screen. */
+const enlargedViews = new Map<string, () => string>();
+export function enlargedDiagram(image: string): string | undefined {
+  return enlargedViews.get(image)?.();
+}
 export function analysisDashboard(
   model: Model,
   result: Result,
@@ -252,6 +257,23 @@ export function analysisDashboard(
   axis: "y" | "z" = "y",
   raw = false,
   meta?: { material?: string },
+) {
+  const drawing = dashboard(model, result, section, axis, meta, false);
+  if (raw) return drawing;
+  const image = svgFile(drawing);
+  if (enlargedViews.size > 50) enlargedViews.clear();
+  enlargedViews.set(image, () =>
+    svgFile(dashboard(model, result, section, axis, meta, true)),
+  );
+  return image;
+}
+function dashboard(
+  model: Model,
+  result: Result,
+  section: Section | undefined,
+  axis: "y" | "z",
+  meta: { material?: string } | undefined,
+  wide: boolean,
 ) {
   const c = theme(),
     font = diagramFont(),
@@ -362,6 +384,14 @@ export function analysisDashboard(
   body += `<rect x="0" y="${top}" width="${W}" height="${sceneH}" rx="12" fill="${c.bg}" stroke="${c.border}"/>`;
   body += `<g transform="translate(0,${top + 6})">${section ? sectionPanel(section) + line(128, 15, 128, sceneH - 20) : ""}${scene.body}</g>`;
   top += sceneH + 18;
+  let leftBody = "",
+    leftTop = 0;
+  if (wide) {
+    leftBody = body;
+    leftTop = top;
+    body = "";
+    top = 0;
+  }
   const chart = responseCharts(model, result, {
     width: W,
     left: section ? 165 : 48,
@@ -383,12 +413,21 @@ export function analysisDashboard(
   );
   body += note.body;
   top += note.height + 18;
-  const drawing = svg(
+  if (wide) {
+    const gap = 24,
+      total = 2 * W + gap,
+      height = Math.max(leftTop, top);
+    return svg(
+      total,
+      height,
+      `<rect width="${total}" height="${height}" fill="${c.bg}"/><g>${leftBody}</g><g transform="translate(${W + gap},0)">${body}</g>`,
+    );
+  }
+  return svg(
     W,
     top,
     `<rect width="${W}" height="${top}" fill="${c.bg}"/>` + body,
   );
-  return raw ? drawing : svgFile(drawing);
 }
 
 /** Formula results remain closed-form. The solver supplies a schematic response curve only. */

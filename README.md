@@ -29,12 +29,21 @@ You never need to remember the syntax: the suggestion list walks you through **s
 
 ## How a result looks
 
-<table align="center"><tr>
-<td align="center"><img src="docs/img/result-simply-supported.png" alt="Simply supported beam result" width="380"><br><sub><code>simply, 6m, 3kN/m, C24, 100x300</code></sub></td>
-<td align="center"><img src="docs/img/result-continuous.png" alt="Three-span continuous beam result" width="380"><br><sub><code>continuous 3, 4m each, 3kN/m, C24, 100x300</code></sub></td>
+<p align="center"><img src="metadata/structural-toolbox-2.png" alt="Enlarged result: values, section, loads, reactions, shear, moment and deflection on one screen" width="100%"></p>
+
+**Enlarge** shows the values *and* the diagrams together on one screen: result cards, section, loads and reactions, then shear, moment and deflection curves.
+
+<table><tr>
+<td><img src="metadata/structural-toolbox-1.png" alt="Structures start screen"></td>
+<td><img src="metadata/structural-toolbox-4.png" alt="Deflection page"></td>
+</tr><tr>
+<td><img src="metadata/structural-toolbox-3.png" alt="Beam result overview"></td>
+<td><img src="metadata/structural-toolbox-5.png" alt="Section library"></td>
 </tr></table>
 
-<sub>These images are rendered by the extension's own diagram engine (`npm run render:readme`): result cards, section, loads, reactions, shear, moment and deflection.</sub>
+<sub>Screenshots are real Raycast windows. The result images can be regenerated with <code>npm run render:readme</code> (rendered by the extension's own diagram engine, shown below for the dark theme).</sub>
+
+<p align="center"><img src="docs/img/result-simply-supported-wide.png" alt="Simply supported beam, dark theme" width="48%"> <img src="docs/img/result-continuous-wide.png" alt="Three-span continuous beam, dark theme" width="48%"></p>
 
 ## Three commands
 
