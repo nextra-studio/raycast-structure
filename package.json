@@ -3,7 +3,7 @@
   "title": "Structural Toolbox",
   "description": "Section and material libraries, stress and torsion calculators, buckling factors, and linear 2D beam, frame and truss analysis.",
   "icon": "icon.png",
-  "author": "tatsuki0123",
+  "author": "lk1224_p",
   "license": "Apache-2.0",
   "platforms": [
     "macOS",
